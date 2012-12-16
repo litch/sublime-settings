@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+it "can reference its ${1:reference}" do
+  @$1 = FactoryGirl.create(:$1)
+  FactoryGirl.create(:${2:model_name}, :$1 => @$1).$1.should == @$1
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>reference</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
