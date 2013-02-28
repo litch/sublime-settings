@@ -1,7 +1,12 @@
 {
+<<<<<<< HEAD
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (light).tmTheme",
 	"font_face": "Source Code Pro",
 	"font_size": 18.0,
+=======
+	"color_scheme": "Packages/User/Solarized (dark).tmTheme",
+	"font_size": 16.0,
+>>>>>>> 1df8954e2c3c9d9344b4002ddae65c408c72b17a
 	"ignored_packages":
 	[
 		"Vintage"
