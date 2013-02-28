@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 it "requires a ${1:property}" do
-  FactoryGirl.build(${2:class_name}, $1 => nil).should_not be_valid
+  FactoryGirl.build(${2:class_name}, $1: nil).should_not be_valid
 end
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

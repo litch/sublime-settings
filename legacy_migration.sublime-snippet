@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+Legacy${1:class}.all.each do |${2:instance}|
+  begin
+    #migration here
+    puts "$1 #{$2.id} successfully migrated"
+  rescue
+    puts "Error migrating #{$2.id}"
+  end
+end
+]]></content>
+  <tabTrigger>legmig</tabTrigger>
+
+</snippet>

@@ -1,7 +1,10 @@
 {
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"Gist",
 		"Package Control",
+		"RubyTest",
 		"Theme - Soda"
 	]
 }

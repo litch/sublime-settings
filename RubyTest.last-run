@@ -1,0 +1,4 @@
+{
+	"last_test_run": "bundle exec rspec spec/ -l14",
+	"last_test_working_dir": "/Users/litch/code/project-oilfield/features/acceptance/attachments_spec.rb"
+}
